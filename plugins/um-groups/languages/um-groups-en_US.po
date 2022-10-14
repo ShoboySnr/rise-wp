@@ -1,0 +1,1701 @@
+# Copyright (C) 2022 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - Groups plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Groups 2.2.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-groups\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-02-09T00:22:35+02:00\n"
+"PO-Revision-Date: 2022-02-09 00:35+0200\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Domain: um-groups\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#. Plugin Name of the plugin
+msgid "Ultimate Member - Groups"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://ultimatemember.com/extension/groups"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add a group system for your community users easily."
+msgstr ""
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#: admin/templates/add-members.php:13
+#: includes/core/actions/um-groups-users-list.php:16
+#: includes/core/class-groups-main-api.php:874
+msgid "Already a member"
+msgstr ""
+
+#: admin/templates/add-members.php:13
+msgid "added by"
+msgstr ""
+
+#: admin/templates/add-members.php:15
+msgid "Add Member"
+msgstr ""
+
+#: admin/templates/add-members.php:16
+msgid "New search"
+msgstr ""
+
+#: admin/templates/groups.php:20 includes/core/filters/um-groups-admin.php:56
+#: templates/create-group-form.php:46 templates/directory/directory.php:79
+#: templates/directory/directory_confirm.php:72
+#: templates/users_invite_list.php:81
+msgid "Privacy"
+msgstr ""
+
+#: admin/templates/groups.php:27
+msgid "Role list"
+msgstr ""
+
+#: admin/templates/groups.php:36 templates/create-group-form.php:87
+msgid "Posts Moderation"
+msgstr ""
+
+#: admin/templates/invites.php:16 templates/create-group-form.php:107
+msgid "Enable Invites feature"
+msgstr ""
+
+#: admin/templates/invites.php:22 templates/create-group-form.php:114
+msgid "Who can invite members to the group?"
+msgstr ""
+
+#: admin/templates/invites.php:30
+msgid "Enable Invites search"
+msgstr ""
+
+#: admin/templates/invites.php:37
+msgid "Enable Invites filters"
+msgstr ""
+
+#: admin/templates/invites.php:44
+msgid "Choose field(s) to enable in search"
+msgstr ""
+
+#: admin/templates/invites.php:47
+msgid "Add New Custom Field"
+msgstr ""
+
+#: admin/templates/manage-members.php:13
+msgid "Show all group status"
+msgstr ""
+
+#: admin/templates/manage-members.php:21
+msgid "Show all group roles"
+msgstr ""
+
+#: admin/templates/manage-members.php:32 admin/templates/manage-members.php:48
+#: includes/core/filters/um-groups-admin.php:52
+#: templates/create-group-form.php:22
+msgid "Name"
+msgstr ""
+
+#: admin/templates/manage-members.php:33 admin/templates/manage-members.php:49
+#: includes/core/class-groups-form.php:132
+msgid "Status"
+msgstr ""
+
+#: admin/templates/manage-members.php:34 admin/templates/manage-members.php:50
+msgid "Group Role"
+msgstr ""
+
+#: admin/templates/manage-members.php:35 admin/templates/manage-members.php:51
+msgid "Actions"
+msgstr ""
+
+#: admin/templates/manage-members.php:36 admin/templates/manage-members.php:52
+msgid "Hidden Status"
+msgstr ""
+
+#: admin/templates/manage-members.php:37 admin/templates/manage-members.php:53
+msgid "Hidden Role"
+msgstr ""
+
+#: admin/templates/manage-members.php:38 admin/templates/manage-members.php:54
+msgid "Hidden User Login"
+msgstr ""
+
+#: admin/templates/manage-members.php:39 admin/templates/manage-members.php:55
+msgid "Hidden User Email"
+msgstr ""
+
+#: admin/templates/manage-members.php:40 admin/templates/manage-members.php:56
+msgid "Hidden Timestamp"
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:65
+#: includes/core/class-groups-main-api.php:1994
+#: includes/core/class-groups-main-api.php:1999
+#: includes/core/class-groups-main-api.php:2005
+#: includes/core/class-groups-main-api.php:2011
+msgid "Join Group"
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:127
+msgid "You must enter a group name"
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:131
+msgid "Minimum of 3 characters are allowed."
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:135
+msgid "You must enter a description"
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:139
+msgid "You must select a category"
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:143
+msgid "You must select a tag"
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:163
+#: includes/core/actions/um-groups-actions.php:194
+#: includes/core/actions/um-groups-actions.php:221
+msgid "Invalid Nonce."
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:168
+#: includes/core/actions/um-groups-actions.php:199
+#: includes/core/actions/um-groups-actions.php:226
+#: includes/core/actions/um-groups-actions.php:244
+#: includes/core/actions/um-groups-actions.php:282
+#: includes/core/actions/um-groups-actions.php:317
+#: includes/core/actions/um-groups-actions.php:367
+msgid "You don't have a permission to change something in this group!"
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:172
+msgid "You must select an image file"
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:267
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/core/actions/um-groups-actions.php:532
+msgid "Group was updated successfully."
+msgstr ""
+
+#: includes/core/actions/um-groups-admin.php:41
+msgid "Settings"
+msgstr ""
+
+#: includes/core/actions/um-groups-admin.php:42
+msgid "Invites settings"
+msgstr ""
+
+#: includes/core/actions/um-groups-admin.php:45
+msgid "Add New Members"
+msgstr ""
+
+#: includes/core/actions/um-groups-admin.php:46
+msgid "Manage Members"
+msgstr ""
+
+#: includes/core/actions/um-groups-admin.php:61
+#: includes/core/class-groups-taxonomies.php:48
+#: includes/core/filters/um-groups-profile.php:59
+#: includes/core/filters/um-groups-settings.php:26
+#: includes/core/filters/um-groups-settings.php:149
+msgid "Groups"
+msgstr ""
+
+#: includes/core/actions/um-groups-admin.php:135
+msgid "Group #"
+msgstr ""
+
+#: includes/core/actions/um-groups-admin.php:201
+msgid "Delete Group Permanently"
+msgstr ""
+
+#: includes/core/actions/um-groups-admin.php:203
+msgid "Delete Group"
+msgstr ""
+
+#: includes/core/actions/um-groups-admin.php:217
+msgid "Add Tab"
+msgstr ""
+
+#: includes/core/actions/um-groups-admin.php:221
+#: includes/core/actions/um-groups-admin.php:222
+msgid "Update Group"
+msgstr ""
+
+#: includes/core/actions/um-groups-directory.php:140
+msgid "No groups found."
+msgstr ""
+
+#: includes/core/actions/um-groups-directory.php:217
+#: includes/core/actions/um-groups-directory.php:218
+msgid "load more..."
+msgstr ""
+
+#: includes/core/actions/um-groups-directory.php:217
+msgid "No more groups to show"
+msgstr ""
+
+#: includes/core/actions/um-groups-directory.php:262
+#: templates/directory/directory_tabs.php:18
+msgid "All Groups <span>%s</span>"
+msgstr ""
+
+#: includes/core/actions/um-groups-discussion.php:16
+#: includes/core/filters/um-groups-admin.php:100
+msgid "Yes"
+msgstr ""
+
+#: includes/core/actions/um-groups-discussion.php:17
+#: includes/core/filters/um-groups-admin.php:99
+msgid "No"
+msgstr ""
+
+#: includes/core/actions/um-groups-email.php:342
+#: includes/core/actions/um-groups-email.php:353
+#: includes/core/actions/um-groups-email.php:368
+#: includes/core/actions/um-groups-email.php:381
+#: includes/core/actions/um-groups-email.php:397
+msgid "Placeholders:"
+msgstr ""
+
+#: includes/core/actions/um-groups-integrate-followers.php:24
+msgid "Follows you"
+msgstr ""
+
+#: includes/core/actions/um-groups-integrate-friends.php:23
+msgid "Friend"
+msgstr ""
+
+#: includes/core/actions/um-groups-users-list.php:22
+msgid "This user has been blocked"
+msgstr ""
+
+#: includes/core/class-groups-account.php:62
+msgid "Notifications"
+msgstr ""
+
+#: includes/core/class-groups-account.php:63
+msgid "Update Notifications"
+msgstr ""
+
+#: includes/core/class-groups-blocked.php:172
+#: includes/core/class-groups-invites.php:46
+#: includes/core/class-groups-members.php:172
+#: includes/core/class-groups-requests.php:176
+msgid "{total_users} Members"
+msgstr ""
+
+#: includes/core/class-groups-blocked.php:173
+#: includes/core/class-groups-invites.php:47
+#: includes/core/class-groups-members.php:173
+#: includes/core/class-groups-requests.php:177
+msgid "{total_users} Member"
+msgstr ""
+
+#: includes/core/class-groups-blocked.php:316
+#: includes/core/class-groups-invites-meta.php:134
+#: includes/core/class-groups-invites.php:870
+#: includes/core/class-groups-members.php:370
+msgid "Joined %s ago"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:28
+msgid "New wall post"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:29
+msgid "New user"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:30
+msgid "New blog post"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:31
+msgid "New product"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:32
+#: includes/core/class-groups-taxonomies.php:55
+msgid "New Group"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:33
+msgid "New Gravity From"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:34
+msgid "New Gravity From Answer"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:35
+msgid "New follow"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:36
+msgid "New forum topic"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:317
+msgid "See more"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:532
+msgid "Untitled"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:755
+#: templates/discussion/clone.php:36
+msgid "Just now"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:763
+msgid "%s min"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:765
+msgid "%s mins"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:774
+msgid "%s hr"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:776
+msgid "%s hrs"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:785
+msgid "Yesterday at %s"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:785
+#: includes/core/class-groups-discussion.php:787
+#: includes/core/class-groups-discussion.php:792
+#: includes/core/class-groups-discussion.php:796
+#: includes/core/class-groups-discussion.php:800
+msgid "g:ia"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:787
+#: includes/core/class-groups-discussion.php:792
+#: includes/core/class-groups-discussion.php:796
+#: includes/core/class-groups-discussion.php:800
+msgid "%s at %s"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:787
+#: includes/core/class-groups-discussion.php:792
+#: includes/core/class-groups-discussion.php:796
+msgid "F d"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:800
+msgid "F d, Y"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:828
+#: templates/discussion/likes.php:17
+msgid "People who like this"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:1181
+#: includes/core/class-groups-discussion.php:1265
+#: includes/core/class-groups-discussion.php:1292
+#: includes/core/class-groups-discussion.php:1323
+#: includes/core/class-groups-discussion.php:1367
+#: includes/core/class-groups-discussion.php:1398
+#: includes/core/class-groups-discussion.php:1429
+#: includes/core/class-groups-discussion.php:1453
+#: includes/core/class-groups-discussion.php:1477
+#: includes/core/class-groups-discussion.php:1517
+#: includes/core/class-groups-discussion.php:1615
+#: includes/core/class-groups-discussion.php:1668
+#: includes/core/class-groups-discussion.php:1714
+#: includes/core/class-groups-discussion.php:1757
+#: includes/core/class-groups-discussion.php:1805
+#: includes/core/class-groups-discussion.php:1855
+#: includes/core/class-groups-discussion.php:1940
+#: includes/core/class-groups-discussion.php:2161
+#: includes/core/class-groups-shortcode.php:74
+#: includes/core/class-groups-shortcode.php:166
+#: includes/core/class-groups-shortcode.php:295
+#: includes/core/class-groups-shortcode.php:520
+msgid ""
+"You do not have the necessary permission for the specified Group to perform "
+"this action."
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:1673
+#: includes/core/class-groups-discussion.php:1762
+msgid "You must login to like"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:1676
+#: includes/core/class-groups-discussion.php:1722
+msgid "Invalid comment"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:1719
+#: includes/core/class-groups-discussion.php:1810
+msgid "You must login to unlike"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:1765
+#: includes/core/class-groups-discussion.php:1813
+#: includes/core/class-groups-discussion.php:1864
+msgid "Invalid wall post"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:1861
+msgid "Login to post a comment"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:1867
+msgid "Enter a comment first"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:1945
+msgid "You can not post as guest"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:1951
+msgid "You should type something first"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:2186
+msgid "Post has been approved"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:2195
+msgid "Post has been deleted"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:2389
+msgid "load %s more comments"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:2391
+msgid "load %s more comment"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:2393
+#: includes/core/class-groups-discussion.php:2404
+msgid "load more replies"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:2393
+#: includes/core/class-groups-discussion.php:2404
+msgid "load more comments"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:2400
+msgid "load %s more replies"
+msgstr ""
+
+#: includes/core/class-groups-discussion.php:2402
+msgid "load %s more reply"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:95
+msgid "All"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:96
+#: includes/core/class-groups-requests.php:319
+#: includes/core/filters/um-groups-users-list.php:163
+#: templates/discussion/user-wall.php:236
+msgid "Approve"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:97
+#: includes/core/class-groups-requests.php:327
+#: includes/core/filters/um-groups-users-list.php:165
+msgid "Block"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:98
+msgid "Display"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:99
+msgid "Expel"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:100
+#: includes/core/class-groups-invites-meta.php:140
+#: includes/core/class-groups-main-api.php:882
+#: includes/core/filters/um-groups-users-list.php:79
+#: templates/js/members-list.php:50
+msgid "Invite"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:101
+#: includes/core/class-groups-main-api.php:878 templates/js/members-list.php:46
+msgid "Invited"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:102
+msgid "Display _MENU_ profiles per page"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:103
+msgid "members"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:104
+msgid "No members found"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:105
+msgid "No members yet"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:106
+msgid "Showing _START_ to _END_ of _TOTAL_ members"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:107
+msgid "Showing 0 to 0 of 0 members"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:108
+msgid "(filtered from _MAX_ total members)"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:109
+msgid "Loading members..."
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:110
+msgid "Resend"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:111
+#: includes/core/class-groups-requests.php:323
+#: includes/core/filters/um-groups-users-list.php:164
+msgid "Reject"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:112
+msgid "Search name:"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:113
+msgid "Sent"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:114
+#: includes/core/filters/um-groups-users-list.php:195
+#: templates/js/members-list.php:35
+msgid "Unblock"
+msgstr ""
+
+#: includes/core/class-groups-enqueue.php:115
+msgid "Something went wrong. Please try again"
+msgstr ""
+
+#: includes/core/class-groups-form.php:80
+msgid "Title"
+msgstr ""
+
+#: includes/core/class-groups-form.php:90 templates/create-group-form.php:34
+msgid "Description"
+msgstr ""
+
+#: includes/core/class-groups-form.php:101
+msgid "Featured Image"
+msgstr ""
+
+#: includes/core/class-groups-form.php:110
+msgid "Categories"
+msgstr ""
+
+#: includes/core/class-groups-form.php:121 templates/create-group-form.php:146
+#: templates/directory/directory.php:101
+msgid "Tags"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:54
+#: templates/create-group-form.php:52
+msgid "Public"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:55
+msgid "Public for Role"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:56
+#: templates/create-group-form.php:63
+msgid "Private"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:57
+#: templates/create-group-form.php:73
+msgid "Hidden"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:70
+msgid "Pending Admin Review"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:71
+msgid "Pending Member Review"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:72
+msgid "Approved"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:73
+msgid "Rejected"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:74
+#: includes/core/filters/um-groups-single.php:291
+msgid "Blocked"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:79
+msgid "Administrator"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:80
+msgid "Moderator"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:81
+msgid "Member"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:82
+msgid "Banned"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:86
+#: templates/create-group-form.php:120
+msgid "All Group Members"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:87
+#: templates/create-group-form.php:123
+msgid "Group Administrators & Moderators only"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:88
+#: templates/create-group-form.php:126
+msgid "Group Administrators only"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:92
+#: templates/create-group-form.php:95
+msgid "Auto Published"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:93
+#: templates/create-group-form.php:98
+msgid "Require Mod/Admin"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:97
+msgid "Oldest members first"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:98
+msgid "Newest members first"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:272
+msgid "You're already a member of this group."
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:336
+msgid "Only members can add you to this group."
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:1282
+#: includes/core/class-groups-main-api.php:1289
+msgid "Wrong request"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:1318
+#: includes/core/class-groups-members.php:317
+#: includes/core/filters/um-groups-users-list.php:50
+msgid "Make Admin"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:1319
+#: includes/core/class-groups-members.php:320
+#: includes/core/filters/um-groups-users-list.php:52
+msgid "Make Member"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:1320
+#: includes/core/class-groups-members.php:323
+#: includes/core/filters/um-groups-users-list.php:51
+msgid "Make Moderator"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:1366
+#: includes/core/class-groups-main-api.php:1416
+msgid "Role changed to %s"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:1595
+msgid "<strong>%s - %s</strong> - already a member"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:1597
+msgid "<strong>%s - %s</strong>"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:1603
+msgid "Nothing found"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:1995
+#: includes/core/class-groups-main-api.php:2001
+#: includes/core/class-groups-main-api.php:2007
+#: includes/core/class-groups-main-api.php:2012
+#: includes/core/class-groups-members.php:337
+#: includes/core/filters/um-groups-users-list.php:131
+msgid "Leave Group"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:2000
+#: includes/core/class-groups-main-api.php:2006
+msgid "Request Sent"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:2002
+#: includes/core/class-groups-main-api.php:2008
+msgid "Cancel"
+msgstr ""
+
+#: includes/core/class-groups-member.php:128
+#: includes/core/class-groups-member.php:187
+#: includes/core/class-groups-member.php:364
+#: includes/core/class-groups-member.php:423
+msgid "Invalid data"
+msgstr ""
+
+#: includes/core/class-groups-member.php:137
+#: includes/core/class-groups-member.php:196
+#: includes/core/class-groups-member.php:253
+#: includes/core/class-groups-member.php:313
+#: includes/core/class-groups-member.php:376
+#: includes/core/class-groups-member.php:432
+msgid "Invalid request"
+msgstr ""
+
+#: includes/core/class-groups-members.php:341
+#: includes/core/filters/um-groups-users-list.php:53
+msgid "Remove From Group"
+msgstr ""
+
+#: includes/core/class-groups-requests.php:355
+msgid "Join request %s ago"
+msgstr ""
+
+#: includes/core/class-groups-setup.php:121
+msgid "Your request to join {group_name} have been approved."
+msgstr ""
+
+#: includes/core/class-groups-setup.php:122
+msgid "{member_name} has requested to join {group_name}."
+msgstr ""
+
+#: includes/core/class-groups-setup.php:123
+msgid "{group_invitation_host_name} has invited you to join {group_name}."
+msgstr ""
+
+#: includes/core/class-groups-setup.php:124
+msgid ""
+"Your group role {group_role_old} has been changed to {group_role_new} in "
+"{group_name}."
+msgstr ""
+
+#: includes/core/class-groups-setup.php:126
+msgid ""
+"<strong>{author_name}</strong> has just posted on the group "
+"<strong>{group_name}</strong>."
+msgstr ""
+
+#: includes/core/class-groups-setup.php:127
+msgid ""
+"<strong>{author_name}</strong> has just commented on the group "
+"<strong>{group_name}</strong>."
+msgstr ""
+
+#: includes/core/class-groups-shortcode.php:48
+msgid "You do not have the necessary permission for the creation groups."
+msgstr ""
+
+#: includes/core/class-groups-shortcode.php:407
+msgid "You can't invite users to this group, you are not approved member."
+msgstr ""
+
+#: includes/core/class-groups-shortcode.php:433
+msgid "You were not invited to the groups."
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:49
+msgid "Group"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:50
+msgctxt "Admin menu name"
+msgid "Groups"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:51
+#: includes/core/class-groups-taxonomies.php:52
+msgid "Add New Group"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:53
+#: templates/discussion/clone.php:49 templates/discussion/comment-reply.php:57
+#: templates/discussion/comment.php:62 templates/discussion/comments.php:61
+#: templates/discussion/comments.php:94 templates/discussion/user-wall.php:255
+msgid "Edit"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:54
+msgid "Edit Group"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:56
+#: includes/core/class-groups-taxonomies.php:57
+msgid "View Group"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:58
+msgid "Search Groups"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:59
+msgid "No Groups found"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:60
+msgid "No Groups found in trash"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:61
+msgid "Parent Group"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:62
+msgid "Group Image"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:63
+msgid "Set group image"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:64
+msgid "Remove group image"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:65
+msgid "Use as group image"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:88
+msgctxt "taxonomy general name"
+msgid "Group Categories"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:89
+msgctxt "taxonomy singular name"
+msgid "Group Category"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:90
+msgid "Search Group Categories"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:91
+msgid "Popular Group Categories"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:92
+msgid "All Group Categories"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:95
+msgid "Edit Group Category"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:96
+msgid "Update Group Category"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:97
+msgid "Add New Group Category"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:98
+msgid "New Group Category Name"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:99
+msgid "Separate group categories with commas"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:100
+msgid "Add or remove group categories"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:101
+msgid "Choose from the most used group categories"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:102
+msgid "No group categories found."
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:103
+msgid "Group Categories"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:118
+msgctxt "taxonomy general name"
+msgid "Group Tags"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:119
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:120
+msgid "Search Group Tags"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:121
+msgid "Popular Group Tags"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:122
+msgid "All Group Tags"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:125
+msgid "Edit Group Tag"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:126
+msgid "Update Group Tag"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:127
+msgid "Add New Group Tag"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:128
+msgid "New Group Tag Name"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:129
+msgid "Separate group tags with commas"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:130
+msgid "Add or remove group tags"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:131
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:132
+msgid "No group tags found."
+msgstr ""
+
+#: includes/core/class-groups-taxonomies.php:133
+msgid "Group Tags"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:15
+msgid "Enter group name..."
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:55
+#: includes/core/filters/um-groups-single.php:152
+msgid "Members"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:57
+msgid "Creator"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:94
+msgid "Require profile to be complete to create post in groups?"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:95
+msgid ""
+"Prevent user from adding posts in groups If their profile completion is "
+"below the completion threshold set up above?"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:155
+msgid "Post ID"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:156
+msgid "Post Author"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:157
+msgid "Post Author Email"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:158
+msgid "Post Date"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:159
+msgid "Post Title"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:160
+msgid "Post Content"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:161
+msgid "Post URL"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:162
+msgid "Post Image"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:198
+msgid "(none)"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-activity.php:49
+msgid "New group"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:13
+msgid "Groups - Approve Member"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:14
+msgid "When my group requests have been approved"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:18
+msgid "Groups - Join Request"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:19
+msgid "When a user requested to join their group"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:23
+msgid "Groups - Invite Member"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:24
+msgid "When a member has invited to join a group"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:28
+msgid "Groups - Change Group Role"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:29
+msgid "When my group roles have been changed"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:33
+#: includes/core/filters/um-groups-settings.php:209
+msgid "Groups - New post"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:34
+msgid "When someone posts to a group"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:39
+#: includes/core/filters/um-groups-settings.php:221
+msgid "Groups - New comment"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-notifications.php:40
+msgid "When someone comments on a post in a group"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:14
+msgid "Groups License Key"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:21
+msgid "Everyone"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:31
+msgid "Groups slug"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:37
+msgid "Groups Category slug"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:43
+msgid "Groups Tag slug"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:49
+msgid "Show group avatars"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:54
+msgid "Show people to Invite tab"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:56
+#: includes/core/filters/um-groups-settings.php:91
+msgid "Select..."
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:62
+msgid "Number of discussion posts on desktop"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:68
+msgid "Number of discussion posts on mobile"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:74
+msgid "Number of initial comments/replies to display per post"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:80
+msgid "Number of comments/replies to get when user load more"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:86
+msgid "Comments order"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:88
+msgid "Newest first"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:89
+msgid "Oldest first"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:97
+msgid "How many words appear before discussion post is truncated?"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:104
+msgid "Text to display If user needs to login to see group activity."
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:141
+msgid "Create Group"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:145
+msgid "My Groups"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:153
+msgid "Invites"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:172
+msgid "Groups - Approve Member Email"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:176
+msgid "Whether to send the user an email when user is approved to a group"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:183
+msgid "Groups - Join Request Email"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:190
+msgid ""
+"Whether to send the group moderators an email when user has requested to "
+"join their group"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:197
+msgid "Groups - Invite Member Email"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:202
+msgid "Whether to send the user an email when user has invited to join a group"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:214
+msgid "Whether to send the user an email when someone posts on group."
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:226
+msgid "Whether to send the user an email when someone posts comment on group."
+msgstr ""
+
+#: includes/core/filters/um-groups-single.php:131
+msgid "Discussions"
+msgstr ""
+
+#: includes/core/filters/um-groups-single.php:174
+msgid "Edit group settings"
+msgstr ""
+
+#: includes/core/filters/um-groups-single.php:208
+msgid "Join Requests <span class=\"count\">%s</span>"
+msgid_plural "Join Requests <span class=\"count\">%s</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/filters/um-groups-single.php:210
+msgid "Join Requests"
+msgstr ""
+
+#: includes/core/filters/um-groups-single.php:248
+msgid "Send Invites"
+msgstr ""
+
+#: includes/core/filters/um-groups-single.php:289
+msgid "Blocked <span class=\"count\">%s</span>"
+msgid_plural "Blocked <span class=\"count\">%s</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/filters/um-groups-single.php:420
+msgid "Details"
+msgstr ""
+
+#: includes/core/filters/um-groups-single.php:426
+#: templates/create-group-form.php:160
+msgid "Avatar"
+msgstr ""
+
+#: includes/core/filters/um-groups-single.php:432
+#: templates/discussion/clone.php:51 templates/discussion/comment-reply.php:58
+#: templates/discussion/comment.php:63 templates/discussion/comments.php:62
+#: templates/discussion/comments.php:96 templates/discussion/user-wall.php:240
+#: templates/discussion/user-wall.php:259 templates/tabs/avatar.php:36
+msgid "Delete"
+msgstr ""
+
+#: includes/core/filters/um-groups-users-list.php:104
+msgid "<span class=\"um-faicon-check\"></span> Invited"
+msgstr ""
+
+#: includes/core/um-groups-widget.php:21
+msgid "Ultimate Member - Groups: Show latest groups"
+msgstr ""
+
+#: includes/core/um-groups-widget.php:24
+msgid "Shows latest groups in a widget."
+msgstr ""
+
+#: includes/core/um-groups-widget.php:83
+msgid "Latest Groups"
+msgstr ""
+
+#: includes/um-groups-short-functions.php:133
+msgid "You must upload an image file."
+msgstr ""
+
+#: templates/account_notifications.php:23
+msgid "Notify me when someone posts on group"
+msgstr ""
+
+#: templates/account_notifications.php:36
+msgid "Notify me when someone comments on group"
+msgstr ""
+
+#: templates/create-group-form.php:55
+msgid "Any site member can join this group."
+msgstr ""
+
+#: templates/create-group-form.php:56 templates/create-group-form.php:67
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: templates/create-group-form.php:57
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: templates/create-group-form.php:66
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: templates/create-group-form.php:68 templates/create-group-form.php:78
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: templates/create-group-form.php:76
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: templates/create-group-form.php:77
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: templates/create-group-form.php:132 templates/directory/directory.php:94
+msgid "Category"
+msgstr ""
+
+#: templates/create-group-form.php:147
+msgid "Choose tags"
+msgstr ""
+
+#: templates/create-group-form.php:179
+msgid "Submit"
+msgstr ""
+
+#: templates/create-group-form.php:181 templates/discussion/clone.php:49
+#: templates/discussion/user-wall.php:255
+msgid "Update"
+msgstr ""
+
+#: templates/directory/directory.php:65
+msgid "Last active: "
+msgstr ""
+
+#: templates/directory/directory.php:65
+msgid " ago"
+msgstr ""
+
+#: templates/directory/directory.php:66
+msgid "<span>%s</span> member"
+msgid_plural "<span>%s</span> members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/directory/directory.php:67
+msgid "<span>%s</span> post"
+msgid_plural "<span>%s</span> posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/directory/directory.php:81
+#: templates/directory/directory_confirm.php:74
+#: templates/latest_comments.php:70 templates/users_invite_list.php:83
+msgid "%s Group"
+msgstr ""
+
+#: templates/directory/directory.php:86
+#: templates/directory/directory_confirm.php:78
+#: templates/users_invite_list.php:87
+msgid "Created by"
+msgstr ""
+
+#: templates/directory/directory_confirm.php:53
+#: templates/users_invite_list.php:54
+msgid "You've been invited by"
+msgstr ""
+
+#: templates/directory/directory_confirm.php:54
+#: templates/users_invite_list.php:57
+msgid "Would you like to join this group?"
+msgstr ""
+
+#: templates/directory/directory_confirm.php:57
+#: templates/users_invite_list.php:63
+msgid "Confirm"
+msgstr ""
+
+#: templates/directory/directory_confirm.php:58
+#: templates/users_invite_list.php:67
+msgid "Ignore"
+msgstr ""
+
+#: templates/directory/directory_search.php:22
+msgid "Search groups..."
+msgstr ""
+
+#: templates/directory/directory_search.php:28
+msgid "All Categories"
+msgstr ""
+
+#: templates/directory/directory_search.php:39
+msgid "All Tags"
+msgstr ""
+
+#: templates/directory/directory_search.php:57 templates/tabs/invites.php:71
+#: templates/tabs/invites.php:73
+msgid "Search"
+msgstr ""
+
+#: templates/directory/directory_search.php:61
+msgid "Clear"
+msgstr ""
+
+#: templates/directory/directory_tabs.php:25
+msgid "My Groups <span>%s</span>"
+msgstr ""
+
+#: templates/directory/directory_tabs.php:31
+msgid "Create a Group"
+msgstr ""
+
+#: templates/discussion/clone.php:23
+msgid "No group discussions available."
+msgstr ""
+
+#: templates/discussion/clone.php:49 templates/discussion/user-wall.php:255
+msgid "Cancel editing"
+msgstr ""
+
+#: templates/discussion/clone.php:51 templates/discussion/user-wall.php:240
+#: templates/discussion/user-wall.php:259
+msgid "Are you sure you want to delete this post?"
+msgstr ""
+
+#: templates/discussion/clone.php:100 templates/discussion/comment-reply.php:43
+#: templates/discussion/comment-reply.php:45
+#: templates/discussion/comment.php:45 templates/discussion/comment.php:47
+#: templates/discussion/comments.php:55 templates/discussion/comments.php:89
+#: templates/discussion/user-wall.php:351
+#: templates/discussion/user-wall.php:353
+msgid "Like"
+msgstr ""
+
+#: templates/discussion/clone.php:102 templates/discussion/user-wall.php:356
+msgid "Comment"
+msgstr ""
+
+#: templates/discussion/comment-reply.php:27
+msgid "Reply hidden. <a href=\"#\" class=\"um-link\">Show this reply</a>"
+msgstr ""
+
+#: templates/discussion/comment-reply.php:43
+#: templates/discussion/comment-reply.php:45
+#: templates/discussion/comment.php:45 templates/discussion/comment.php:47
+#: templates/discussion/comments.php:55 templates/discussion/comments.php:89
+#: templates/discussion/user-wall.php:351
+#: templates/discussion/user-wall.php:353
+msgid "Unlike"
+msgstr ""
+
+#: templates/discussion/comment-reply.php:58
+#: templates/discussion/comment.php:63 templates/discussion/comments.php:62
+#: templates/discussion/comments.php:96
+msgid "Are you sure you want to delete this comment?"
+msgstr ""
+
+#: templates/discussion/comment.php:32
+msgid "Comment hidden. <a href=\"#\" class=\"um-link\">Show this comment</a>"
+msgstr ""
+
+#: templates/discussion/comment.php:53 templates/discussion/comments.php:57
+msgid "Reply"
+msgstr ""
+
+#: templates/discussion/comments.php:23
+msgid "Write a reply..."
+msgstr ""
+
+#: templates/discussion/comments.php:23
+msgid "Write a comment..."
+msgstr ""
+
+#: templates/discussion/comments.php:38 templates/discussion/comments.php:76
+msgid "Hide"
+msgstr ""
+
+#: templates/discussion/counters.php:21
+msgid "likes"
+msgstr ""
+
+#: templates/discussion/counters.php:27
+msgid "comments"
+msgstr ""
+
+#: templates/discussion/html/new-follow.php:12
+msgid "has just followed"
+msgstr ""
+
+#: templates/discussion/html/new-gform-submission.php:12
+#: templates/discussion/html/new-gform.php:12
+msgid "just created a new "
+msgstr ""
+
+#: templates/discussion/html/new-gform-submission.php:12
+msgid "Gravity Form Answer"
+msgstr ""
+
+#: templates/discussion/html/new-gform.php:12
+msgid "Gravity Form"
+msgstr ""
+
+#: templates/discussion/html/new-group.php:12
+msgid "created the group"
+msgstr ""
+
+#: templates/discussion/html/new-post.php:12
+msgid "just created a new blog"
+msgstr ""
+
+#: templates/discussion/html/new-post.php:12
+msgid "post"
+msgstr ""
+
+#: templates/discussion/html/new-product.php:12
+msgid "just added a new"
+msgstr ""
+
+#: templates/discussion/html/new-product.php:12
+msgid "product"
+msgstr ""
+
+#: templates/discussion/html/new-topic.php:12
+msgid "just created a new forum"
+msgstr ""
+
+#: templates/discussion/html/new-topic.php:12
+msgid "topic"
+msgstr ""
+
+#: templates/discussion/new.php:48
+msgid "%s post requires approval"
+msgid_plural "%s posts require approval"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/discussion/new.php:56
+msgid "You have %s post requires admin approval"
+msgid_plural "You have %s posts require admin approval"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/discussion/new.php:74
+msgid "%s reported post requires approval"
+msgid_plural "%s reported posts require approval"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/discussion/new.php:109
+msgid "You have %s post that you reported. It require administrator approval."
+msgid_plural ""
+"You have %s posts that you reported. They require administrator approval."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/discussion/new.php:120
+msgid "Write Post"
+msgstr ""
+
+#: templates/discussion/new.php:120
+msgid "Post on %s's wall"
+msgstr ""
+
+#: templates/discussion/new.php:125
+msgid "Say something about this photo"
+msgstr ""
+
+#: templates/discussion/new.php:125
+msgid "Write something..."
+msgstr ""
+
+#: templates/discussion/new.php:149
+msgid "Add photo"
+msgstr ""
+
+#: templates/discussion/new.php:149
+msgid "Image is too large"
+msgstr ""
+
+#: templates/discussion/new.php:149
+msgid "Please upload a valid image"
+msgstr ""
+
+#: templates/discussion/new.php:158
+msgid "Post"
+msgstr ""
+
+#: templates/discussion/user-wall.php:268
+#: templates/discussion/user-wall.php:273
+#: templates/discussion/user-wall.php:274
+msgid "Report"
+msgstr ""
+
+#: templates/discussion/user-wall.php:268
+#: templates/discussion/user-wall.php:269
+#: templates/discussion/user-wall.php:273
+msgid "Cancel report"
+msgstr ""
+
+#: templates/tabs/avatar.php:33 templates/tabs/avatar.php:39
+msgid "Upload"
+msgstr ""
+
+#: templates/tabs/delete.php:19
+msgid "This action cannot be undone."
+msgstr ""
+
+#: templates/tabs/delete.php:22
+msgid "Delete group permanently"
+msgstr ""
+
+#: templates/tabs/invites.php:70
+msgid "Search:"
+msgstr ""
+
+#: templates/tabs/invites.php:84
+msgid "More filters"
+msgstr ""
+
+#: templates/tabs/invites.php:107
+msgid "Remove filter"
+msgstr ""
+
+#: templates/tabs/invites.php:132
+msgid "Remove all filters"
+msgstr ""
+
+#: templates/tabs/invites.php:132
+msgid "Clear all"
+msgstr ""
+
+#: um-groups.php:43 um-groups.php:59
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: assets/js/um-groups.js:382
+msgid "Are you sure that you want to expel this member?"
+msgstr ""
+
+#: assets/js/um-groups.js:404
+msgid "Are you sure that you want to leave this group?"
+msgstr ""

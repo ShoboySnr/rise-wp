@@ -1,0 +1,163 @@
+.member-profile {
+  &-bg {
+    background: #a22035;
+    backdrop-filter: blur(20.9133px);
+  }
+  &-company {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -1rem;
+      height: 2.625rem;
+      width: 1px;
+      background-color: #fff;
+      border-radius: 9.18907px 9.18907px 0px 0px;
+    }
+  }
+  &-contact {
+    width: 8.375rem;
+    height: 2.875rem;
+    transition: hover 0.2s;
+  }
+}
+.about-user {
+  @include respond(lg) {
+    max-width: 38.625rem;
+  }
+}
+.profile-forum-tab-btn {
+  max-width: 176px;
+  @include respond(sm) {
+    max-width: unset;
+  }
+}
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  @apply flex items-center justify-center;
+}
+.modal {
+  max-width: 863px;
+  @apply w-full md:pl-24 m-auto;
+}
+.form {
+  border: 1.29167px solid #e6e6e6;
+  border-radius: 12.9167px;
+  @apply bg-white dark:bg-black500 mx-6;
+  &-btn {
+    border-radius: 42.2983px;
+    max-width: 178px;
+    @apply py-2.5 bg-red text-white w-full;
+  }
+  &-close-btn {
+    @apply text-red rounded-full;
+    padding: 15px;
+    background: #fff2eb;
+  }
+  &-heading {
+    @apply font-heading text-lg font-bold dark:text-white;
+    color: #38393e;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  &-footer {
+    border-top: 1px solid #e6e6e6;
+  }
+  &-heading,
+  &-footer {
+    height: 84px;
+    @apply px-12 flex items-center;
+  }
+  &-body {
+    @apply px-6 sm:px-12 pt-10 pb-12;
+  }
+  &-field {
+    @apply text-gray250 border-gray50 bg-gray100 px-8 appearance-none;
+    &::placeholder {
+      @apply text-gray250;
+    }
+    &-sm {
+      border-radius: 60px;
+      height: 60px;
+    }
+    &-lg {
+      border-radius: 10px;
+      min-height: 192px;
+    }
+    &-label {
+      @apply font-heading text-gray250 dark:text-white font-medium pb-4;
+      font-size: 16px;
+    }
+    &-group {
+      @apply relative flex items-center;
+    }
+    &-prepend {
+      @apply absolute right-10;
+    }
+  }
+  &-tag {
+    min-height: 43px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #fff7f2;
+    border-radius: 42.2983px;
+    display: inline-flex;
+    align-items: center;
+    &-text {
+      color: #130f26;
+      font-size: 16px;
+    }
+    & > button {
+      height: 20px;
+      width: 20px;
+      margin-left: 18px;
+    }
+  }
+}
+.edit-profile-imgbox {
+  @apply text-white w-full bg-red300 dark:bg-gray400 bg-cover bg-center mb-20 relative;
+  height: 194px;
+}
+.edit-profile-img {
+  @apply border-gray360 border-3 rounded-full object-cover absolute;
+  top: 103px;
+  left: 72px;
+}
+.edit-profile-input {
+  @apply bg-gray175 p-2.5 rounded-full absolute cursor-pointer;
+  top: 174px;
+  left: 143px;
+}
+.dark .profile-accordion-svg {
+  fill: currentColor;
+}
+.user-profile-pop {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+datalist.services-list {
+  @apply appearance-none absolute max-w-sm text-gray250 bg-gray100 rounded-b-lg border border-gray50 w-full p-1.5 max-h-28 overflow-y-auto;
+}
+
+.services-list option {
+  height: 50px;
+  @apply mb-px p-1 text-base cursor-pointer;
+  &:hover,
+  &:active{
+    background-color: rgba(0,0,0,.1);
+  }
+}

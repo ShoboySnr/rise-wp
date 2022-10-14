@@ -1,0 +1,182 @@
+/** Some Important Ultimate Member Register CSS **/
+.um-page-register header,
+.um-page-register .entry-title,
+.um-page-register footer,
+.um-page-password-reset header,
+.um-page-password-reset .entry-title,
+.um-page-password-reset footer,
+.um-page-login header,
+.um-page-login .entry-title,
+.um-page-login footer {
+  display: none;
+}
+
+.um-page-login #page,
+.um-page-register #page,
+.um-page-password-reset #page {
+  overflow-x: unset;
+}
+
+.um {
+  color: inherit !important;
+}
+
+.um *, .um *:before, .um *:after {
+  box-sizing: border-box !important;
+}
+
+.preloader {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999999999;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.um-page-register .um-register .error {
+  margin-top: 10px;
+  display: inline-block;
+  transition: all 0.25s ease-out;
+}
+
+.um-page-register .um-register .custom-radio ul {
+  list-style: disc;
+  margin-left: 2.5rem;
+}
+
+.success_message p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/** Login Form CSS **/
+.login-form input {
+  color: #c4c4c4;
+}
+
+/** Reset Password Fields **/
+.um-field-block {
+  margin-bottom: 10px;
+}
+
+.um-um_password_id.um {
+  max-width: 100% !important;
+}
+
+.no-forums {
+  margin-top: 20px;
+}
+
+
+.um-cover {
+  height: unset !important;
+}
+
+.connect-tab .bbp-topic-form {
+  display: none;
+}
+
+.single-topic .connect-tab .bbp-topic-form {
+  display: block !important;
+}
+
+#threaded-comments .list-comments-number div {
+  display: none;
+}
+
+#threaded-comments ul li:nth-of-type(2) .list-comments-number div {
+  display: block !important;
+}
+
+#threaded-comments ul li:first-of-type img {
+  width: 64px;
+  height: 64px;
+}
+
+#threaded-comments ul li:not(:nth-of-type(1)) #topics-contents {
+  margin-left: 3.5rem !important;
+}
+
+#threaded-comments ul li:nth-of-type(1) #topic-action-link {
+  margin-left: 5rem;
+}
+
+.um-cover-e, .um-cover-overlay, .um-profile-edit, .um-profile-photo, .um-profile-meta, .um-profile-body {
+  display: none;
+}
+
+.um-profile img {
+  border-radius: 9999px !important;
+}
+
+#um_upload_single .um-modal-header,
+#um_upload_single .um-modal-btn {
+  background-color: #DB3B0F !important;
+  color: #fff;
+}
+
+.um-header {
+  position: relative;
+  padding: 0 !important;
+  border-bottom: none !important;
+  min-height: unset !important;
+  box-sizing: content-box !important;
+}
+
+.um-popup.loading {
+  background: #fff url("../img/preloader.svg") no-repeat center !important;
+}
+
+.ajax-upload-dragdrop .upload {
+  background-color: #DB3B0F !important;
+  cursor: pointer !important;
+  line-height: 34px !important;
+  height: 34px;
+  display: inline-block;
+  text-decoration: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0 20px;
+  color: #fff;
+  vertical-align: middle;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+.um-modal-right {
+  text-align: right;
+  float: unset !important;
+}
+
+.ajax-upload-dragdrop .icon i {
+  color: #c4c4c4;
+}
+
+.um-faicon-circle-o-notch:before {
+  content: "";
+  background-image: url("../img/preloader.svg");
+}
+
+.um-message-cssload {
+  position: absolute;
+}
+
+.edit-profile-input {
+  background-color: transparent;
+  position: relative;
+}
+
+#topics-contents ul {
+  list-style: disc !important;
+}
+
+#topics-contents ul:not(.bbp-reply-revision-log) li {
+  list-style: unset !important;
+}

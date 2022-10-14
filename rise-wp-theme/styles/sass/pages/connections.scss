@@ -1,0 +1,40 @@
+@layer components {
+  .connections {
+    &-wrapper {
+      @apply grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-x-4 gap-y-5 pb-24;
+      .member-card {
+        @apply px-10 md:px-6 2xl:px-14 w-auto pb-6;
+        &_img {
+          @apply w-14 h-14;
+        }
+        .save-member {
+          @apply hidden;
+        }
+      }
+    }
+    &-pagination {
+      @apply flex md:justify-end my-10;
+      &_wrapper {
+        @apply bg-white flex items-center p-1 rounded-full;
+      }
+    }
+    &-tab {
+      @apply focus:outline-none whitespace-nowrap px-4 sm:px-9 -mb-0.5 pb-2 sm:pb-4 text-gray250 border-b-4 border-transparent;
+      &.active {
+        @apply border-b-4 border-red;
+      }
+      &_wrapper {
+        @apply dashboard-wrap flex border-b border-gray mt-14 overflow-x-scroll -mx-7 md:-ml-20 md:-mr-8 lg:-mx-24;
+      }
+    }
+    &-nav {
+      @apply flex mb-4 sm:mb-0 text-gray250  items-center;
+      p {
+        @apply text-sm text-gray250 font-light;
+      }
+      &-container {
+        @apply mt-10 mb-10 flex flex-col sm:flex-row justify-between;
+      }
+    }
+  }
+}

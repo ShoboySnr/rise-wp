@@ -1,0 +1,18 @@
+.opportunity-card {
+    // min-width: 17.5rem;
+}
+.opportunities-btn-active {
+    background: rgba(241, 84, 0, 0.1);
+    border: none;
+    color: #F15400;
+}
+.opportunity-filter-active {
+    color: #F15400;
+    border-color: #F15400;
+    svg {
+        transform: rotate(180deg);
+        path {
+            stroke: #F15400;
+        }
+    }
+}

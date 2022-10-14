@@ -1,0 +1,12 @@
+.terms-container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  @include respond(sm) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  @include respond(lg) {
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
+  }
+}

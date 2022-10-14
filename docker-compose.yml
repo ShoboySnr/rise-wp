@@ -1,0 +1,39 @@
+version: "3.1"
+
+services:
+  wordpress:
+    image: wordpress:5.8-php7.4-apache
+    restart: always
+    stdin_open: true
+    tty: true
+    ports:
+      - "${PORT:-8000}:80"
+    depends_on:
+      - db
+    environment:
+      WORDPRESS_DB_HOST: "${WORDPRESS_DB_HOST:-db}"
+      WORDPRESS_DB_USER: "${WORDPRESS_DB_USER:-exampleuser}"
+      WORDPRESS_DB_PASSWORD: "${WORDPRESS_DB_PASSWORD:-examplepass}"
+      WORDPRESS_DB_NAME: "${WORDPRESS_DB_NAME:-exampledb}"
+      WORDPRESS_DEBUG: "${WORDPRESS_DEBUG:-'true'}"
+      WORDPRESS_SCRIPTS_DEBUG: "${WORDPRESS_SCRIPTS_DEBUG:-'true'}"
+      WORDPRESS_DEBUG_LOG: "${WORDPRESS_DEBUG_LOG:-'true'}"
+      WORDPRESS_FS_METHOD: "${WORDPRESS_DB_NAME:-'true'}"
+    volumes:
+      - wordpress:/var/www/html
+      - ./rise-wp-theme:/var/www/html/wp-content/themes/rise-wp/
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: "${MYSQL_DATABASE:-exampledb}"
+      MYSQL_USER: "${MYSQL_USER:-exampleuser}"
+      MYSQL_PASSWORD: "${MYSQL_PASSWORD:-examplepass}"
+      MYSQL_RANDOM_ROOT_PASSWORD: "${MYSQL_RANDOM_ROOT_PASSWORD:-'1'}"
+    volumes:
+      - db:/var/lib/mysql
+      - ./mysql/configs/my.cnf:/etc/mysql/my.cnf
+volumes:
+  wordpress:
+  db:

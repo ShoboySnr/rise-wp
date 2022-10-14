@@ -1,0 +1,75 @@
+.not-elig {
+  &-logo-parent {
+    margin-top: 4.125rem;
+    margin-left: 1.5rem;
+    @include respond(sm) {
+      margin-left: 3rem;
+    }
+    @include respond(lg) {
+      margin-left: 7.6875rem;
+    }
+  }
+  &-logo {
+    width: 5.8125rem;
+    height: 5.5rem;
+  }
+  &-bg {
+    min-width: 37%;
+    display: none;
+    @include respond(md) {
+      display: block;
+    }
+  }
+  &-content {
+    max-width: 41.25rem;
+  }
+  &-btn {
+    width: 18.75rem;
+    height: 3.75rem;
+    border-radius: 2.5rem;
+  }
+}
+.login {
+  margin-left: 1.5rem;
+  @include respond(sm) {
+    margin-left: 3rem;
+  }
+  @include respond(lg) {
+    margin-left: 7.6875rem;
+  }
+  &-logo {
+    width: 5.8125rem;
+    height: 5.5rem;
+    margin-top: 4.125rem;
+  }
+  &-form {
+    width: 100%;
+    @include respond(sm) {
+      width: 90%;
+    }
+    @include respond(lg) {
+      width: 30.375rem;
+    }
+    input {
+      width: 100%;
+      display: block;
+      height: 3.5rem;
+      margin-bottom: 1.25rem;
+      border-radius: 1.875rem;
+      border: 1px solid #c4c4c4;
+      padding-left: 2rem;
+      &:focus {
+        outline: none;
+        border: 2px solid red;
+      }
+      @include respond(sm) {
+        height: 4rem;
+      }
+    }
+    button {
+      width: 100%;
+      height: 3.875rem;
+      border-radius: 2.5rem;
+    }
+  }
+}

@@ -1,0 +1,111 @@
+@layer components {
+  :root {
+    --modal-width: calc(100vw - theme('spacing.24'));
+  }
+  .modal {
+    .modal-dialog {
+      position: fixed;
+      margin: auto;
+      height: 100%;
+      width: 100vw;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: -1;
+      transform: translate3d(0%, 0, 0);
+      @include respond(lg) {
+        width: var(--modal-width);
+      }
+    }
+    .modal-content {
+      height: 100%;
+      overflow-y: auto;
+      width: 100%;
+      @apply bg-white dark:bg-black dark:text-white ml-auto pt-10  pb-20;
+      @include respond(sm) {
+        width: calc(max(380px, 61vw));
+      }
+    }
+    .modal-header {
+      @apply pb-6 border-b border-gray390 px-6 md:px-14;
+    }
+    .modal-body {
+      @apply pt-12;
+    }
+    .modal-title {
+      @apply text-2xl font-semibold capitalize;
+    }
+    .modal-content {
+      border-radius: 0;
+      border: none;
+    }
+    button[class^='close'][class$='modal'] {
+      @apply bg-orange300 h-12 w-12 rounded-full focus:outline-none flex items-center justify-center ml-auto;
+    }
+  }
+  .modal.fade {
+    .modal-dialog {
+      transition: opacity 0.1s linear;
+    }
+    .modal-content {
+      transition: right 0.3s ease-out;
+      left: 4rem;
+      @include respond(lg) {
+        right: calc(var(--modal-width) * -1);
+      }
+    }
+  }
+  .modal.fade.in .modal-dialog {
+    right: 0;
+    z-index: 99;
+    @apply opacity-100;
+  }
+  .notification-date {
+    @apply pl-6 md:pl-16 font-semibold text-lg;
+  }
+  .notification-date:not(:first-child) {
+    @apply mt-14;
+  }
+  .notification-item {
+    @apply px-6 md:px-14 hover:bg-orange400 dark:hover:bg-gray250 cursor-pointer;
+    > div {
+      @apply flex py-6 border-b-1/2 hover:border-transparent border-gray390 justify-between text-input;
+    }
+    &__content {
+      margin-right: 3vw;
+      @apply flex space-x-5 text-black400 dark:text-white;
+      &__reply {
+        font-style: italic;
+        @apply text-input font-thin text-gray400 dark:text-white;
+      }
+    }
+    .image-wrapper {
+      min-width: 3rem;
+      @apply h-10 rounded-full;
+      img {
+        @apply h-10 rounded-full;
+      }
+    }
+    &__information {
+      @apply text-gray450 dark:text-off-white  font-thin space-y-6;
+    }
+    &__time {
+      @apply whitespace-nowrap dark:text-off-white text-gray900;
+    }
+  }
+  .notification-item:last-child {
+    > div {
+      @apply border-transparent;
+    }
+  }
+  .contact-us {
+    &-modal {
+      @apply flex flex-col gap-y-3 pl-20 pr-14;
+    }
+    &__col {
+      @apply grid grid-cols-2 gap-x-5;
+    }
+    &__button {
+      @apply rounded-one ml-auto mr-auto md:mr-0 my-4 py-5  px-14 hover:border-red text-white border-3 hover:text-orange500 flex items-center justify-center text-input bg-orange500 font-extrabold cursor-pointer transition-all top-2 right-2 hover:bg-white dark:border-white dark:hover:border-orange500;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+tbody tr th{
+    font-weight: 400 !important;
+    font-size: 14px;
+}
+
+thead tr th{
+    font-size: 14px;
+}
+
+.dataTables_wrapper .dataTables_length select{
+    width: 51px;
+}
+
+.wp-core-ui select {
+    height: 37px;
+    width: 134px;
+
+}
+
+.dataTables_wrapper .dataTables_filter input{
+    height: 10px;
+}
+
+form .custom-select > div::after {
+    /*content: url(data:image/svg+xml;utf8,<svg width= "24" height= "24" viewBox= "0 0 24 24" fill= "none" xmlns= "http://www.w3.org/2000/svg" > <path d= "M12.0002 15.7131L18.0102 9.70309L16.5972 8.28809L12.0002 12.8881L7.40423 8.28809L5.99023 9.70209L12.0002 15.7131Z" fill= "black" /></svg>);*/
+    /*display: block;*/
+    width: 22px;
+    top: 35%;
+    /*position: absolute;*/
+    /*right: 2rem;*/
+}
+
+
+
+.custom-input input{
+    color: #111111 !important;
+}
+
+/*csv button customize*/
+button.buttons-csv{
+    display: inline-block !important;
+font-weight: 400 !important;
+color: #fff !important;
+text-align: center !important;
+vertical-align: middle !important;
+cursor: pointer !important;
+-webkit-user-select: none !important;
+-moz-user-select: none !important;
+-ms-user-select: none !important;
+user-select: none !important;
+background-color: #000000;
+border: 1px solid transparent !important;
+padding: .375rem .75rem !important;
+font-size: 1rem !important;
+line-height: 1.5 !important;
+border-radius: .25rem !important;
+}
+
+button.buttons-csv:hover,
+button.buttons-csv:focus{
+    color: #fff !important;
+    background: #1b1e21 !important;
+}
+
+button.buttons-csv:active{
+    color: #fff !important;
+    background: #1b1e21 !important;
+}
+
+#rer-list-users_wrapper .dt-buttons{
+    margin-top: -92px !important;
+}
+
+td a{
+    color: #000000 !important;
+}

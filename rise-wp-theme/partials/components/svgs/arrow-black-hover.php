@@ -1,0 +1,7 @@
+<svg class="fill-current text-black" width="24" height="24"
+     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        class="fill-current text-black group-hover:text-white dark:text-white dark:group-hover:text-black"
+        d="M18.171 13.0007L15.591 15.5907L17.001 17.0007L22.001 12.0007L17.001 7.00073L15.591 8.41073L18.171 11.0007H2.00098V13.0007H18.171Z"
+        fill="black" />
+</svg>

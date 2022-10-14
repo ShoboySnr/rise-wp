@@ -1,0 +1,328 @@
+# Copyright (C) 2022 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - User Bookmarks plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - User Bookmarks 2.0.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-user-"
+"bookmarks\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-02-09T00:23:48+02:00\n"
+"PO-Revision-Date: 2022-02-09 00:40+0200\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Domain: um-user-bookmarks\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#. Plugin Name of the plugin
+msgid "Ultimate Member - User Bookmarks"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://ultimatemember.com/extensions/user-bookmarks/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Let users bookmark posts, pages and custom post types"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#: includes/admin/class-admin.php:38
+msgid "User Bookmarks License Key"
+msgstr ""
+
+#: includes/admin/class-admin.php:45 includes/admin/class-admin.php:189
+msgid "User Bookmarks"
+msgstr ""
+
+#: includes/admin/class-admin.php:52
+msgid "Bottom"
+msgstr ""
+
+#: includes/admin/class-admin.php:53
+msgid "Top"
+msgstr ""
+
+#: includes/admin/class-admin.php:55
+msgid "Bookmark icon position"
+msgstr ""
+
+#: includes/admin/class-admin.php:64
+msgid "Enable bookmark"
+msgstr ""
+
+#: includes/admin/class-admin.php:70
+msgid "Enable bookmark on archive pages"
+msgstr ""
+
+#: includes/admin/class-admin.php:76
+msgid "Add bookmark button text"
+msgstr ""
+
+#: includes/admin/class-admin.php:83
+msgid "Remove bookmark button text"
+msgstr ""
+
+#: includes/admin/class-admin.php:90
+msgid "Folders text (Plural)"
+msgstr ""
+
+#: includes/admin/class-admin.php:97
+msgid "Folder text (Singular)"
+msgstr ""
+
+#: includes/admin/class-admin.php:104
+msgid "Bookmarked Icon (css class)"
+msgstr ""
+
+#: includes/admin/class-admin.php:111
+msgid "Regular Icon (css class)"
+msgstr ""
+
+#: includes/admin/class-admin.php:117
+msgid "Using Page Builder"
+msgstr ""
+
+#: includes/admin/class-admin.php:118
+msgid "If it's not checked - show post excerpt without applying shortcodes"
+msgstr ""
+
+#: includes/admin/class-admin.php:123
+msgid "Create default folder"
+msgstr ""
+
+#: includes/admin/class-admin.php:124
+msgid ""
+"Automatically create the first bookmarks folder for a newly created member"
+msgstr ""
+
+#: includes/admin/class-admin.php:129
+msgid "Default folder name"
+msgstr ""
+
+#: includes/admin/templates/bookmarks/metabox.php:12
+msgid "Disable Bookmark"
+msgstr ""
+
+#: includes/admin/templates/role/bookmark.php:15
+msgid "Enable bookmark feature?"
+msgstr ""
+
+#: includes/admin/templates/role/bookmark.php:16
+msgid "Can this role have bookmark feature?"
+msgstr ""
+
+#: includes/core/class-bookmark-ajax.php:59
+#: includes/core/class-bookmark-ajax.php:138
+#: includes/core/class-bookmark-ajax.php:149
+#: includes/core/class-bookmark-ajax.php:195
+#: includes/core/class-bookmark-ajax.php:248
+#: includes/core/class-bookmark-ajax.php:272
+#: includes/core/class-bookmark-ajax.php:305
+#: includes/core/class-bookmark-ajax.php:353
+#: includes/core/class-bookmark-ajax.php:368
+#: includes/core/class-bookmark-ajax.php:377
+msgid "Invalid request"
+msgstr ""
+
+#: includes/core/class-bookmark-ajax.php:62
+msgid "Invalid post data"
+msgstr ""
+
+#: includes/core/class-bookmark-ajax.php:65
+#: includes/core/class-bookmark-ajax.php:198
+msgid "Invalid user data"
+msgstr ""
+
+#: includes/core/class-bookmark-ajax.php:68
+#: includes/core/class-bookmark-ajax.php:201
+#: includes/core/class-bookmark-ajax.php:380
+msgid "%s name is required"
+msgstr ""
+
+#: includes/core/class-bookmark-ajax.php:92
+#: includes/core/class-bookmark-ajax.php:220
+#: includes/core/class-bookmark-ajax.php:391
+msgid "%s is already exists"
+msgstr ""
+
+#: includes/core/class-bookmark-ajax.php:109
+msgid "%s isn't exists"
+msgstr ""
+
+#: includes/core/class-bookmark-ajax.php:157
+msgid "Not found in bookmarks"
+msgstr ""
+
+#: includes/core/class-bookmark-ajax.php:238
+msgid "Invalid %s"
+msgstr ""
+
+#: includes/core/class-bookmark-ajax.php:257
+#: includes/core/class-bookmark-ajax.php:281
+#: includes/core/class-bookmark-ajax.php:316
+#: includes/core/class-bookmark-ajax.php:388
+msgid "%s doesn't exists"
+msgstr ""
+
+#: includes/core/class-bookmark-ajax.php:302
+#: includes/core/class-bookmark-ajax.php:349
+msgid "Invalid request."
+msgstr ""
+
+#: includes/core/class-bookmark-common.php:238
+#: includes/core/class-bookmark-setup.php:39
+msgid "My bookmarks"
+msgstr ""
+
+#: includes/core/class-bookmark-privacy.php:36
+msgid "Everyone"
+msgstr ""
+
+#: includes/core/class-bookmark-privacy.php:37
+msgid "Only me"
+msgstr ""
+
+#: includes/core/class-bookmark-privacy.php:43
+#: includes/core/class-bookmark-privacy.php:46
+msgid "Who can see user bookmarks tab?"
+msgstr ""
+
+#: includes/core/class-bookmark-profile.php:34
+msgid "Bookmarks"
+msgstr ""
+
+#: includes/core/class-bookmark-profile.php:59
+msgid "All"
+msgstr ""
+
+#: includes/core/class-bookmark-profile.php:78
+#: includes/core/class-bookmark-profile.php:93
+msgid "You do not have permission to view bookmark"
+msgstr ""
+
+#: includes/core/class-bookmark-profile.php:159
+#: includes/core/class-bookmark-profile.php:184
+#: includes/core/class-bookmark-shortcode.php:71
+#: templates/profile/folder-view.php:54
+msgid "No bookmarks have been added."
+msgstr ""
+
+#: includes/core/class-bookmark-setup.php:31
+msgid "Bookmark"
+msgstr ""
+
+#: includes/core/class-bookmark-setup.php:32
+msgid "Remove bookmark"
+msgstr ""
+
+#: includes/core/class-bookmark-setup.php:33
+msgid "Folders"
+msgstr ""
+
+#: includes/core/class-bookmark-setup.php:34
+msgid "Folder"
+msgstr ""
+
+#: templates/modal.php:20 assets/js/um-user-bookmarks.js:149
+msgid "Loading.."
+msgstr ""
+
+#: templates/profile/edit-folder.php:30
+msgid "Edit folder"
+msgstr ""
+
+#: templates/profile/edit-folder.php:40
+msgid "%s title"
+msgstr ""
+
+#: templates/profile/edit-folder.php:42
+msgid "%s title is required"
+msgstr ""
+
+#: templates/profile/edit-folder.php:49
+#: templates/profile/folder-view/add-folder.php:40
+#: templates/profile/folder-view/folder/folder-info.php:26
+#: templates/select-folder.php:65
+msgid "Private"
+msgstr ""
+
+#: templates/profile/edit-folder.php:55
+msgid "Update"
+msgstr ""
+
+#: templates/profile/folder-view/add-folder.php:26
+msgid "Add %s"
+msgstr ""
+
+#: templates/profile/folder-view/add-folder.php:34
+#: templates/select-folder.php:57
+msgid "%s name"
+msgstr ""
+
+#: templates/profile/folder-view/add-folder.php:35
+#: templates/select-folder.php:59
+msgid "%s name is required."
+msgstr ""
+
+#: templates/profile/folder-view/add-folder.php:44
+#: templates/select-folder.php:70
+msgid "Create"
+msgstr ""
+
+#: templates/profile/folder-view/folder.php:34
+msgid "saved"
+msgstr ""
+
+#: templates/profile/folder-view/folder/folder-info.php:28
+msgid "Public"
+msgstr ""
+
+#: templates/profile/single-folder.php:52
+msgid "Folder is empty"
+msgstr ""
+
+#: templates/profile/single-folder/bookmark-item.php:50
+msgid "Remove"
+msgstr ""
+
+#: templates/profile/single-folder/dropdown.php:37
+msgid "Edit"
+msgstr ""
+
+#: templates/profile/single-folder/dropdown.php:41
+msgid "Delete folder and its content?"
+msgstr ""
+
+#: templates/profile/single-folder/dropdown.php:42
+msgid "Delete"
+msgstr ""
+
+#: templates/profile/single-folder/dropdown.php:47
+msgid "Cancel"
+msgstr ""
+
+#: templates/select-folder.php:25
+msgid "Select %s"
+msgstr ""
+
+#: um-user-bookmarks.php:48 um-user-bookmarks.php:67
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: assets/js/um-user-bookmarks.js:105
+msgid "Successful"
+msgstr ""

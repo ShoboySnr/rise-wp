@@ -1,0 +1,1 @@
+<p>Your request to join to group "{group_name}" has been approved.<br /><br />To view a group, please click the following link: <a style="color: #3ba1da; text-decoration: none;" href="{group_url}">{group_url}</a></p>

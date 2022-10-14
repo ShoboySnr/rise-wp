@@ -1,0 +1,48 @@
+.news-container {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  @include respond(sm) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  @include respond(lg) {
+    padding-left: 5.5rem;
+    padding-right: 6.625rem;
+  }
+}
+.news-header-img {
+  @include respond(lg) {
+    height: 28.125rem;
+  }
+  img {
+    border-radius: 5rem;
+  }
+}
+.news-header-text {
+  @include respond(lg) {
+    min-width: calc(50% - 2.75rem);
+  }
+}
+.news-content {
+  max-width: 59.375rem;
+}
+
+// Added by Paul
+.readmore-hero{
+  position: absolute;
+  left: 77px;
+  top: 70%;
+  z-index: 99;
+}
+
+@media screen and (max-width: 768px){
+  .readmore-hero{
+  position: absolute;
+  left: 12px;
+  top: 105%;
+  z-index: 99;
+}
+}

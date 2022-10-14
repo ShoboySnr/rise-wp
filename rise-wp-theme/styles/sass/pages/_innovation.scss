@@ -1,0 +1,29 @@
+.download-audit {
+  width: 12.125rem;
+  height: 3.3125rem;
+  &:hover {
+    svg {
+      path {
+        stroke: #db3b0f;
+      }
+    }
+  }
+}
+.innovation-team-img {
+  width: 7.9375rem;
+  height: 7.25rem;
+  &-2 {
+    width: 5.6875rem;
+    height: 5.125rem;
+    &:first-child {
+        margin-right: -2.625rem;
+      }
+      &:last-child {
+        margin-left: -2.625rem;
+      }
+  }
+}
+.innovation-contact {
+    width: 16.75rem;
+    height: 3.3125rem;
+}

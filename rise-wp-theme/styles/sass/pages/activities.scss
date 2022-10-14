@@ -1,0 +1,41 @@
+@layer components {
+  .activity {
+    &-wrapper {
+      @apply pb-10;
+    }
+    &-card {
+      @apply flex flex-col gap-y-6 pt-8 border-b-1/2 border-gray360;
+      &-time {
+        @apply text-gray450 dark:text-off-white whitespace-nowrap;
+      }
+      &-header {
+        @apply flex justify-between items-baseline;
+        > :nth-child(1) {
+          @apply block md:flex justify-between md:w-full;
+          > :nth-child(1) {
+            @apply font-bold capitalize text-lg;
+          }
+        }
+        > div:last-of-type {
+          @apply flex md:ml-24 ml-6 items-center justify-between;
+        }
+        a {
+          @apply hover:text-red;
+        }
+      }
+      &_tag {
+        height: min-content;
+        @apply px-5 py-1 text-sm rounded-full bg-red hover:bg-white border-red border dark:bg-gray400 text-white block;
+      }
+      &-content {
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        @apply text-gray250 h-20 leading-7 font-light overflow-hidden mb-6 md:mb-4 dark:text-off-white;
+        @include respond(lg) {
+          -webkit-line-clamp: 2;
+        }
+      }
+    }
+  }
+}

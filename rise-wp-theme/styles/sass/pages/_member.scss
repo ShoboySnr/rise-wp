@@ -1,0 +1,121 @@
+.connect {
+  &-heading {
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 600;
+  }
+}
+.member {
+  &-filter {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+    /* For IE10 */
+    &::-ms-expand {
+      display: none;
+    }
+  }
+  &-card {
+    flex-basis: 13rem;
+    min-width: 13rem;
+    width: 100%;
+    transition: all 500ms linear;
+  }
+  &-category {
+    @include respond(sm) {
+      // max-width: 10.5625rem;
+      min-width: 10.5625rem;
+    }
+    &-btn {
+      //   transform: rotate(-90deg);
+      transition: all 0.2s;
+    }
+    &-checkboxes {
+      input[type='checkbox'] {
+        visibility: hidden;
+        position: relative;
+        height: 1.25rem;
+        width: 1.25rem;
+        margin-right: 0.625rem;
+        &::after {
+          content: '';
+          height: 1.25rem;
+          width: 1.25rem;
+          border: 1px solid red;
+          visibility: visible;
+          display: block;
+          border-radius: 4px;
+          background-color: transparent;
+          position: absolute;
+          top: 0;
+          left: 0;
+          transition: all 0.2s;
+        }
+        &::before {
+          content: '';
+          width: 0.4rem;
+          height: 0.7rem;
+          border-right: 2px solid white;
+          border-bottom: 2px solid white;
+          display: block;
+          border-radius: 2px;
+          position: absolute;
+          left: 0.35rem;
+          top: 0.225rem;
+          z-index: 9;
+          transform: rotate(45deg);
+          transition: all 0.2s;
+        }
+        &:checked {
+          &::after {
+            background-color: red;
+          }
+          &::before {
+            visibility: visible;
+          }
+        }
+      }
+      input[type='radio'] {
+        visibility: hidden;
+        position: relative;
+        height: 1.25rem;
+        width: 1.25rem;
+        margin-right: 0.625rem;
+        &::before {
+          content: '';
+          visibility: visible;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 1.25rem;
+          width: 1.25rem;
+          border-radius: 100%;
+          border: 1px solid red;
+          background-color: transparent;
+          transition: all 0.2s;
+        }
+        &::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          height: 0.5rem;
+          width: 0.5rem;
+          border-radius: 100%;
+          background-color: white;
+          transition: all 0.2s;
+        }
+        &:checked {
+          &::before {
+            background-color: red;
+          }
+          &::after {
+            visibility: visible;
+          }
+        }
+      }
+    }
+  }
+}

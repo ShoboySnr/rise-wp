@@ -1,0 +1,63 @@
+.dashboard {
+  &-wrap {
+    padding: 0 1.5rem;
+    @include respond(sm) {
+      padding: 0 2.625rem;
+    }
+    @include respond(lg) {
+      padding: 0 5.625rem;
+    }
+  }
+  &-header {
+    &-bg {
+      @include respond(sm) {
+        max-width: 32.625rem;
+        border-radius: 0 200px 200px 0;
+      }
+    }
+  }
+  &-heading {
+    font-size: 2.5rem;
+    line-height: 2.875rem;
+    font-weight: 600;
+  }
+  &-team {
+    &-text {
+      @include respond(sm) {
+        min-width: 21.625rem;
+      }
+    }
+    &-img {
+      width: 7.125rem;
+      height: 7.125rem;
+    }
+    &-img-2 {
+      width: 5.625rem;
+      height: 5.625rem;
+      &:first-child {
+        margin-right: -2.625rem;
+      }
+      &:last-child {
+        margin-left: -2.625rem;
+      }
+    }
+    &-link {
+      height: 2.6875rem;
+      width: 15.5625rem;
+    }
+  }
+}
+.follow-up {
+  @include respond(sm) {
+    max-width: 29.625rem;
+    width: 100%;
+  }
+  .border-b {
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+.hiding-panel {
+  background-image: url(/assets/images/dashboard-header-bg.png);
+}

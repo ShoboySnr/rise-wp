@@ -1,0 +1,48 @@
+.rise-wp-admin-nav-menu {
+  display: inline-block;
+  width: 100%;
+}
+
+#post_metadata_rise_members_category .members-container select {
+  max-width: 100%;
+}
+
+#post_metadata_rise_members_category .members-container .select2-container {
+  width: 100% !important;
+}
+
+.rise-actvities-show-members {
+  height: auto;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+.metaboxes-container table {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+.rise-metaboxes {
+  max-height: 600px;
+  overflow-y: scroll;
+  scrollbar-width: none; /** Firefox fix **/
+}
+
+.rise-metaboxes::-webkit-scrollbar {
+  display: none;
+}
+
+.metaboxes-container table tr .w-semi-quarter {
+  width: 25%;
+}
+
+.metaboxes-container table tr .w-quarter {
+  width: 75%;
+}
+
+.metaboxes-container table tr th, .metaboxes-container table tr td {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  padding: 10px;
+}

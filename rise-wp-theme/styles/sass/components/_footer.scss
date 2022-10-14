@@ -1,0 +1,62 @@
+.footer {
+  padding: 3.4375rem 1.5rem 1.5625rem 1.5rem;
+  @include respond(sm) {
+    padding: 3.4375rem 3rem 1.5625rem 3rem;
+  }
+  @include respond(lg) {
+    padding: 3.4375rem 9.375rem 1.5625rem 9.375rem;
+  }
+  &-col-1 {
+    flex-basis: 100%;
+    @include respond(lg) {
+      flex-basis: auto;
+    }
+  }
+  &-logo {
+    width: 4.625rem;
+    height: 4.3125rem;
+    margin-bottom: 1.375rem;
+    img {
+      width: 100%;
+    }
+  }
+  &-note {
+    max-width: 100%;
+    @include respond(lg) {
+      max-width: 28.125rem;
+    }
+  }
+  &-address {
+    max-width: 100%;
+    @include respond(md) {
+      max-width: 12.9375rem;
+    }
+  }
+  &-address-box {
+    flex-basis: 100%;
+    @include respond(md) {
+      flex-basis: auto;
+    }
+  }
+}
+.footer-prefix-img {
+  top: 1rem;
+  right: 50%;
+  transform: translateX(50%);
+  height: 18.02rem;
+  width: 18.02rem;
+  @include respond(sm) {
+    top: unset;
+    bottom: 1.4375rem;
+    right: 1.4375rem;
+    height: 23.3125rem;
+    width: 23.3125rem;
+    transform: translateX(0);
+  }
+}
+.footer-prefix-svg {
+  @include respond(sm) {
+    height: 26.375rem;
+    width: 25.875rem;
+  }
+}

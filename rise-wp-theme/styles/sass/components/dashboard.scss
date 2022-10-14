@@ -1,0 +1,191 @@
+@layer components {
+  .dashboard-wrapper {
+    @apply flex;
+  }
+
+  .dashboard-nav {
+    transition: width 0.15s linear;
+    @apply flex w-24 fixed md:left-0 h-screen -left-full flex-col md:border-r border-gray360 bg-white dark:bg-black400 z-20;
+    &__logo {
+      @apply h-24 flex items-center pl-8 border-b border-gray360;
+      img {
+        height: 45px;
+        width: 43px;
+      }
+    }
+    .pages {
+      @apply h-full flex flex-col pt-10 pb-6 gap-y-6;
+      li {
+        @apply hover:text-red border-l-2 flex pl-10 border-white dark:border-black items-center h-10;
+        a {
+          @apply flex w-full;
+          .in-active {
+            @apply flex;
+          }
+          .active {
+            @apply hidden;
+          }
+          span {
+            transition: opacity 0.1s linear 0.1;
+            @apply w-0 dark:text-off-white opacity-0 capitalize font-semibold whitespace-nowrap;
+          }
+        }
+      }
+      li.active {
+        a {
+          @apply text-orange200;
+        }
+      }
+      li:last-child {
+        @apply mt-auto;
+      }
+    }
+  }
+  .accessibility-mode .dashboard-nav .pages {
+    @apply pb-36 md:pb-16;
+  }
+  .dashboard-nav:hover,
+  .dashboard-nav.in {
+    @apply w-56;
+    .pages li a span {
+      @apply ml-4 w-auto opacity-100;
+    }
+  }
+  .dashboard-nav.in {
+    width: 75vw;
+    @apply left-0 md:w-56;
+  }
+  .dashboard-container {
+    @apply overflow-hidden mx-auto w-full dark:bg-black400 dark:text-white bg-gray100 md:ml-24 md:px-8 px-6 lg:px-24;
+  }
+  .dropdown-options {
+    box-shadow: 4px 0px 21px 4px #0000000d;
+    @apply absolute top-20 bg-white border-gray360 border dark:bg-black400 left-0 w-full py-8 px-5 flex flex-col gap-y-3 rounded-xl z-50;
+    .dropdown-option {
+      @apply flex justify-between px-5 py-3 cursor-pointer border border-gray360 capitalize w-full rounded-full whitespace-nowrap flex-nowrap items-center font-thin;
+      p {
+        @apply flex whitespace-nowrap;
+      }
+      &_section {
+        @apply font-medium block ml-3;
+      }
+    }
+  }
+  .dashboard-search {
+    width: 462px;
+    @apply relative hidden md:block;
+    input {
+      @apply focus:outline-none h-14 w-full border-1/2 border-gray390 dark:border-white dark:bg-black dark:placeholder-white dark:text-white rounded-full pl-16;
+    }
+    input::placeholder {
+      @apply font-thin text-black;
+    }
+    &__icon {
+      @apply absolute left-8 top-5;
+    }
+    &-messages {
+      min-width: 200px;
+      @apply w-auto mt-8 block;
+      input {
+        @apply h-12 text-sm text-gray450 placeholder-gray450;
+      }
+      div[class*='icon'] {
+        @apply top-4;
+      }
+    }
+    &__wrapper:not(.focus) {
+      .dropdown-options {
+        @apply hidden;
+      }
+    }
+    &__wrapper.focus {
+      @apply relative;
+    }
+  }
+  .dashboard-top-nav {
+    @apply flex h-20 pt-6 mb-12 md:mb-16 items-center justify-between;
+    &__sm {
+      @apply md:hidden flex gap-x-6;
+      a img {
+        @apply h-9;
+      }
+      button {
+        @apply focus:outline-none;
+        img {
+          @apply h-6;
+        }
+      }
+    }
+    .right-nav-options {
+      @apply flex items-start gap-2 lg:gap-5;
+      > li {
+        min-width: 2.5rem;
+        @apply flex;
+      }
+      > li:not(:last-child) > * {
+        @apply p-3 focus:outline-none items-center flex hover:opacity-70;
+        img {
+          @apply mt-2;
+        }
+      }
+      > li:last-child {
+        position: relative;
+        min-width: 4rem;
+      }
+      .profile-btn {
+        max-height: 48px;
+        @apply focus:outline-none items-center flex;
+        img {
+          max-height: 48px;
+          @apply rounded-full;
+        }
+        svg {
+          transition: all 0.15s linear;
+        }
+      }
+      .profile-options {
+        box-shadow: 4px 0px 21px 4px #0000000d;
+        padding: 2.265rem 1.81rem;
+        @apply absolute flex top-20 bg-white border-gray360 border dark:bg-black right-0 w-48 text-right  flex-col gap-y-3 rounded-xl z-50;
+        .profile-option {
+          @apply self-end cursor-pointer;
+          padding-bottom: 0.81rem;
+        }
+      }
+      .profile-options::before {
+        content: '';
+        height: 47px;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        top: -37px;
+      }
+    }
+    .right-nav-options:not(.focus) {
+      .profile-options {
+        @apply hidden;
+      }
+    }
+    .right-nav-options.focus {
+      .profile-btn svg {
+        transform: rotate(180deg);
+      }
+      .profile-options {
+        @apply flex;
+      }
+    }
+    #profile {
+      .profile-options {
+        @apply hidden;
+      }
+    }
+    #profile:hover {
+      .profile-btn svg {
+        transform: rotate(180deg);
+      }
+      .profile-options {
+        @apply flex;
+      }
+    }
+  }
+}

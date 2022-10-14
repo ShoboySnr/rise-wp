@@ -1,0 +1,28 @@
+.forum-latest {
+    @include respond(sm) {
+        min-width: 23.5rem;
+    }
+}
+.forum-content {
+    @include respond(sm) {
+        min-width: 65%;
+      }
+}
+.comment-tag {
+    &::after {
+        content: "";
+        position: absolute;
+        // after:h-2 after:border-l after:border-gray350 after:mx-3
+        height: 0.5rem;
+       width:  1px;
+       background-color: #C4C4C4;
+        margin: auto 0.75rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &:last-child {
+        &::after {
+            display: none;
+        }
+    }
+}

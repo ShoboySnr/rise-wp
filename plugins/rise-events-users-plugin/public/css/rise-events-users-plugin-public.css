@@ -1,0 +1,79 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.e-mt-input,
+.e-mt-select {
+    margin-top: 0.5rem !important;
+}
+
+.error{
+    color: red !important;
+}
+.e-close-btn {
+    margin-top: 12px;
+    background: antiquewhite;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+form .custom-select.e-mt-select::after{
+    content: '';
+    display: none !important;
+
+}
+
+form .custom-select > div::after{
+    top: 45% !important;
+    z-index: -3;
+}
+
+.e-mt-1 {
+    margin-top: 19px !important;
+}
+
+.e-register-btn {
+    padding: 11px 41px;
+    background: #DB3B0F !important;
+}
+
+.modal-event{
+    z-index:999;
+}
+
+input.e-mt-1{
+    /*color: #111111 !important;*/
+}
+
+
+form .custom-input{
+    margin-top: 0.5rem !important;
+}
+
+form .custom-input input{
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+}
+
+form .custom-select select{
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+}
+
+.gray-bg{
+    color: #1b1e21;
+}
+
+.contact-us__button:hover{
+    background: #fff !important;
+    color: #DB3B0F !important;
+}
+
+.rer_response{
+   padding: 4rem 3rem;
+    color: #DB3B0F;
+    text-align: center;
+    display: none;
+    font-size: 23px;
+}
